@@ -1,0 +1,269 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: O Cloud Volumes ONTAP 9,5 inclui vários novos recursos e aprimoramentos. 
+---
+= Novidades do Cloud Volumes ONTAP 9,5
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O Cloud Volumes ONTAP 9,5 inclui vários novos recursos e aprimoramentos.
+
+
+NOTE: Recursos e aprimoramentos adicionais também são introduzidos nas versões mais recentes do Cloud Manager. Consulte https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["Notas de versão do Cloud Manager"^] para obter detalhes.
+
+
+
+== 9,5 P11 (6 de março de 2020)
+
+A versão de patch 9,5 P11 para Cloud Volumes ONTAP agora está disponível por meio do Cloud Manager 3,8 e posterior. O Cloud Manager solicitará que você atualize seus sistemas existentes para esta versão de patch. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P11["Veja a lista de bugs corrigidos no patch P11"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+
+== 9,5 P10 (12 de janeiro de 2020)
+
+A versão de patch 9,5 P10 para Cloud Volumes ONTAP já está disponível por meio do Cloud Manager. O Cloud Manager solicitará que você atualize seus sistemas existentes para esta versão de patch. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P10["Veja a lista de bugs corrigidos no patch P10"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+
+== 9,5 P9 patch (17 Nov 2019)
+
+A versão de patch 9,5 P9 para Cloud Volumes ONTAP já está disponível por meio do Cloud Manager. O Cloud Manager solicitará que você atualize seus sistemas existentes para esta versão de patch. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P9["Veja a lista de bugs corrigidos no patch P9"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+
+== 9,5 P8 patch (6 out 2019)
+
+A versão de patch 9,5 P8 para Cloud Volumes ONTAP já está disponível. O Cloud Manager solicitará que você atualize seus sistemas existentes para esta versão de patch. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P8["Veja a lista de bugs corrigidos no patch P8"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+
+== 9,5 P6 patch (16 de julho de 2019)
+
+A versão de patch 9,5 P6 para Cloud Volumes ONTAP já está disponível. O Cloud Manager solicitará que você atualize seus sistemas existentes para esta versão de patch. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P6["Veja a lista de bugs corrigidos no patch P6"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+NOTE: O Cloud Manager solicita que você atualize para versões específicas de patch do ONTAP que incluem correções importantes para o Cloud Volumes ONTAP. É por isso que você pode notar uma lacuna entre as versões de patch nessas notas de versão. Listamos apenas os patches que o Cloud Manager disponibiliza para você.
+
+
+
+== 9,5 P4 patch (16 de maio de 2019)
+
+A versão de patch 9,5 P4 para Cloud Volumes ONTAP já está disponível. O Cloud Manager solicitará que você atualize seus sistemas existentes para esta versão de patch. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P4["Veja a lista de bugs corrigidos no patch P4"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+
+== Suporte ao ambiente AWS C2S (2 de maio de 2019)
+
+O Cloud Volumes ONTAP 9,5 e o Cloud Manager 3.6.4 agora estão disponíveis para a Comunidade de Inteligência dos EUA (IC) por meio do ambiente de Serviços de nuvem comerciais da AWS (C2S). É possível implantar pares de HA e sistemas de nó único em C2S.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-aws-c2s.html["Comece a usar o ambiente AWS C2S"^]
+
+
+
+== 9,5 P3 patch (25 de abril de 2019)
+
+A versão de patch 9,5 P3 para Cloud Volumes ONTAP já está disponível. https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P3["Veja a lista de bugs corrigidos no patch P3"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+
+== 9,5 P2 patch (10 de abril de 2019)
+
+A versão de patch 9,5 P2 para Cloud Volumes ONTAP já está disponível. Este patch inclui correções de bugs, bem como suporte para Flash Cache com novos tipos de instância do AWS EC2. O Cloud Manager solicitará que você atualize seus sistemas existentes para esta versão de patch.
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P2["Clique aqui para ver os bugs corrigidos no patch P2"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+
+=== Suporte ao Flash Cache com novos tipos de instância do EC2
+
+Os seguintes tipos de instâncias do EC2 agora são compatíveis com as licenças Premium e BYOL:
+
+* c5d.4xlarge
+* c5d.9xlarge
+* r5d.2xlarge
+
+
+Esses tipos de instância incluem armazenamento NVMe local, que o Cloud Volumes ONTAP usa como _Flash Cache_. O Flash Cache acelera o acesso aos dados por meio do armazenamento em cache inteligente em tempo real dos dados do usuário lidos recentemente e dos metadados do NetApp. Ele é eficaz para workloads com uso intenso de leitura aleatória, incluindo bancos de dados, e-mail e serviços de arquivos.
+
+A compactação deve ser desativada em todos os volumes para aproveitar as melhorias de desempenho do Flash Cache. Não é possível escolher a eficiência de storage ao criar um volume no Cloud Manager ou criar um volume e, em seguida http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/GUID-8508A4CB-DB43-4D0D-97EB-859F58B29054.html["Desative a compressão de dados usando a CLI"^], .
+
+
+NOTE: O reaquecimento do cache após uma reinicialização não é suportado com o Cloud Volumes ONTAP.
+
+
+
+== Suporte A HA na região do Azure Central dos EUA (25 Mar 2019)
+
+Agora, os pares DE HA são compatíveis na região Central dos EUA no Azure.
+
+https://cloud.netapp.com/cloud-volumes-global-regions["Veja a lista completa das regiões do Azure suportadas"^].
+
+
+
+== 9,5 P1 patch (18 de março de 2019)
+
+A versão de patch 9,5 P1 para Cloud Volumes ONTAP já está disponível para todas as configurações. O Cloud Manager solicitará que você atualize seus sistemas existentes para esta versão de patch.
+
+Se você tiver um par de HA existente no Azure, a NetApp entrará em Contato para ajudá-lo a aplicar a versão de patch do P1.
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P1["Clique aqui para ver os bugs corrigidos no patch P1"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+
+== Cloud Volumes ONTAP HA está agora GA no Azure (18 Mar 2019)
+
+Com o lançamento do patch 9,5 P1, os pares de HA no Azure agora estão geralmente disponíveis (GA). Uma licença Preview não é mais necessária.
+
+A versão GA está disponível na maioria das regiões do Azure, com exceção do seguinte:
+
+* Central US
+* North Central US
+* Regiões Gov DOS EUA
+* Oeste dos EUA
+* West Central US
+
+
+A manutenção nessas regiões pode impedir a criação de Cloud Volumes ONTAP e impedir a ocorrência de failover. Planejamos apoiar essas regiões assim que a manutenção for concluída.
+
+https://cloud.netapp.com/cloud-volumes-global-regions["Veja uma lista completa das regiões do Azure suportadas"^].
+
+
+
+== 9,5 GA para AWS e Azure (4 fev 2019)
+
+A versão de disponibilidade geral (GA) do Cloud Volumes ONTAP 9,5 agora está disponível na AWS e no Microsoft Azure (para sistemas de nó único somente no Azure). A versão GA inclui correções de estabilidade, recursos novos e obsoletos na AWS e uma alteração nos limites de capacidade do sistema.
+
+
+
+=== Limite de capacidade de 368 TB para todas as configurações Premium e BYOL
+
+O limite de capacidade do sistema para o Cloud Volumes ONTAP Premium e BYOL agora tem 368 TB em todas as configurações: Nó único e HA na AWS e no Azure.
+
+Para algumas configurações, os limites de disco impedem que você alcance o limite de capacidade de 368 TB usando discos sozinhos. Nesses casos, você pode alcançar o limite de capacidade de 368 TB em https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["disposição em camadas dos dados inativos no storage de objetos"^]. Por exemplo, um sistema de nó único no Azure poderia ter 252 TB de capacidade baseada em disco, o que permitiria até 116 TB de dados inativos no armazenamento Blob do Azure.
+
+Para obter informações sobre limites de disco, link:reference-storage-limits.html["limites de armazenamento"]consulte .
+
+
+
+=== Suporte para instâncias M5 e R5 na AWS
+
+O Cloud Volumes ONTAP agora oferece suporte a vários tipos de instâncias nas famílias M5 e R5:
+
+[cols="4*"]
+|===
+| Explore | Padrão | Premium | BYOL 
+
+
+| m5.xlarge  a| 
+* m5.2xlarge
+* r5.xlarge
+
+ a| 
+* m5.4xlarge
+* r5.2xlarge
+
+ a| 
+* m5.xlarge
+* m5.2xlarge
+* m5.4xlarge
+* r5.xlarge
+* r5.2xlarge
+
+
+|===
+Essas instâncias usam um hipervisor baseado na tecnologia KVM. Como resultado, as instâncias oferecem suporte a um número menor de discos de dados do que outros tipos de instância: Até 24 discos de dados para sistemas de nó único e 21 discos de dados para pares de HA. link:reference-storage-limits.html["Saiba mais sobre os limites de armazenamento"].
+
+Saiba mais sobre https://aws.amazon.com/ec2/instance-types/m5/["Instâncias do M5"^] e https://aws.amazon.com/ec2/instance-types/r5/["Instâncias do R5"^].
+
+
+
+=== Suporte para criptografia de volume NetApp na AWS
+
+https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf["Criptografia de volume NetApp (NVE)"^] é uma tecnologia baseada em software para criptografar dados em repouso um volume de cada vez. Os dados, as cópias Snapshot e os metadados são criptografados. O acesso aos dados é dado por uma chave exclusiva XTS-AES-256, uma por volume.
+
+Neste momento, o Cloud Volumes ONTAP suporta encriptação de volume NetApp com um servidor de gestão de chaves externo. Um Gerenciador de chaves integrado não é suportado. Você pode encontrar os principais gerentes suportados na http://mysupport.netapp.com/matrix["Ferramenta de Matriz de interoperabilidade do NetApp"^] solução *Key Managers*.
+
+Você precisa configurar a criptografia de volume do NetApp a partir da CLI. Em seguida, você pode usar a CLI ou o System Manager para habilitar a criptografia em volumes específicos. O Cloud Manager não oferece suporte à criptografia de volume NetApp a partir de sua interface de usuário e de suas APIs.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-encrypting-volumes.html["Saiba como configurar a encriptação de volume do NetApp"^]
+
+
+NOTE: A criptografia de volume do NetApp é uma tecnologia de criptografia diferente da criptografia Cloud Volumes ONTAP, que criptografou dados no nível agregado e agora está obsoleta. Não é possível fazer uma atualização entre essas duas tecnologias de criptografia. Consulte <<Recursos obsoletos na AWS>> para obter mais informações.
+
+
+
+=== Recursos obsoletos na AWS
+
+Dois recursos não são mais suportados na versão 9,5.
+
+
+
+==== A criptografia no nível de agregado do Cloud Volumes ONTAP agora só oferece suporte à criptografia nativa de discos da AWS
+
+A criptografia de dados em repouso de agregados que usam gerenciadores de chaves externos não é mais suportada. Se você estiver usando esse recurso e quiser atualizar, será necessário iniciar um novo sistema 9,5 e, em seguida, https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["replique dados"] para esse sistema.
+
+A criptografia de dados em repouso ainda é suportada por outros métodos. Você pode criptografar dados usando o NetApp volume Encryption ou usando o AWS Key Management Service (KMS). https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-security.html["Saiba mais sobre criptografia de dados em repouso"^].
+
+
+
+==== c4,2xlarge já não é suportado
+
+O tipo de instância c4,2xlarge não é suportado com a versão 9,5. Se você estiver usando esse tipo de instância, primeiro você deve https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["mude para um novo tipo de instância"] atualizar para a versão 9,5.
+
+
+
+== 9,5 RC1 para Azure (4 dez 2018)
+
+O Cloud Volumes ONTAP 9,5 RC1 já está disponível no Microsoft Azure. A versão 9,5 estará disponível na AWS posteriormente.
+
+
+
+=== Visualização de pares de alta disponibilidade (HA) no Microsoft Azure
+
+Uma prévia dos pares de HA do Cloud Volumes ONTAP no Microsoft Azure já está disponível. Um par de HA fornece confiabilidade empresarial e operações contínuas em caso de falhas no seu ambiente de nuvem. Semelhante a um cluster ONTAP físico, o storage em um par de HA do Azure é compartilhado entre os dois nós.
+
+Os pares DE HA no Azure estão disponíveis como pré-visualização. Você pode solicitar uma licença de pré-visualização entrando em Contato conosco em ng-Cloud-volume-ONTAP-preview at NetApp.com.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-ha-azure.html["Saiba mais sobre pares de HA no Azure"^].
+
+
+
+=== Melhor desempenho de rede no Azure
+
+Os sistemas Cloud Volumes ONTAP agora estão habilitados com https://docs.microsoft.com/en-us/azure/virtual-network/create-vm-accelerated-networking-cli["Rede acelerada"^] no Azure. O Cloud Manager permite a rede acelerada quando você faz a atualização para o 9,5 e quando você implementa novos sistemas 9,5.
+
+
+
+=== Suporte para novas regiões do Azure
+
+Agora você pode implantar o Cloud Volumes ONTAP na região França Central.
+
+
+
+=== Suporte para criptografia de volume NetApp no Azure
+
+https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf["Criptografia de volume NetApp (NVE)"^] é uma tecnologia baseada em software para criptografar dados em repouso um volume de cada vez. Os dados, as cópias Snapshot e os metadados são criptografados. O acesso aos dados é dado por uma chave exclusiva XTS-AES-256, uma por volume.
+
+Neste momento, o Cloud Volumes ONTAP suporta encriptação de volume NetApp com um servidor de gestão de chaves externo. Um Gerenciador de chaves integrado não é suportado. Você pode encontrar os principais gerentes suportados na http://mysupport.netapp.com/matrix["Ferramenta de Matriz de interoperabilidade do NetApp"^] solução *Key Managers*.
+
+Você precisa configurar a criptografia de volume do NetApp a partir da CLI. Em seguida, você pode usar a CLI ou o System Manager para habilitar a criptografia em volumes específicos. No momento, o Gerenciador de nuvem não oferece suporte à criptografia de volume do NetApp.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-encrypting-volumes.html["Saiba como configurar a encriptação de volume do NetApp"^]
+
+
+
+== Notas de atualização
+
+* As atualizações do Cloud Volumes ONTAP devem ser concluídas a partir do Cloud Manager. Você não deve atualizar o Cloud Volumes ONTAP usando o Gerenciador de sistema ou a CLI. Isso pode afetar a estabilidade do sistema.
+* Você pode atualizar para o Cloud Volumes ONTAP 9,5 a partir da versão 9,4.
+* A atualização de um sistema de nó único leva o sistema off-line por até 25 minutos, durante os quais a e/S é interrompida.
+* A atualização de um par de HA não causa interrupções e e/S é ininterrupta. Durante esse processo de atualização sem interrupções, cada nó é atualizado em conjunto para continuar fornecendo e/S aos clientes.
+
