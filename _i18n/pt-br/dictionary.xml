@@ -390,7 +390,6 @@
   <block id="1aa6c2acb5444fe5b5a93f7daa554347" category="cell">Capacidade máxima do sistema</block>
   <block id="b77f0f3e9fd2f5fef4d366d77b1ef0cf" category="list-text">A disposição de dados em categorias não é compatível com pares de HA.</block>
   <block id="86356f570acc8683cfbf184efa49892d" category="sidebar">Essas notas de versão descrevem novos recursos, limitações e problemas conhecidos específicos do Cloud Volumes ONTAP 9,5.</block>
-  <block id="543ec7e9ddd2b6bc0d9506114c6dda6f" category="sidebar">Notas de versão do Cloud Volumes ONTAP 9,5</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Comece agora</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
   <block id="e19968c5ebc4b94a271992f4b0563be8" category="sidebar">Configurações e limites</block>
@@ -399,5 +398,5 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidade NetApp</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Blog do Cloud Central</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinars na nuvem</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">Notas de lançamento para casa</block>
+  <block id="768e5fecad4c27b08f9ffd5fd34e1330" category="sidebar">Notas de versão do Cloud Volumes ONTAP 9,5</block>
 </blocks>
