@@ -82,7 +82,7 @@ Notas:
 . Quando você escolhe um tipo de instância EC2, você pode especificar se é uma instância compartilhada ou uma instância dedicada.
 . HDDs frios não são compatíveis com pares de HA.
 . O desempenho de gravação aprimorado é habilitado ao usar SSDs EBS com padrão Cloud Volumes ONTAP, Premium e BYOL.
-. Para obter suporte à região da AWS, https://cloud.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"^] consulte .
+. Para obter suporte à região da AWS, https://bluexp.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"^] consulte .
 
 
 
@@ -130,7 +130,7 @@ Notas:
 . Se você habilitar a disposição de dados em categorias, o limite de capacidade de um sistema permanecerá o mesmo. O limite de capacidade inclui discos e armazenamento de objetos.
 . A disposição de dados em categorias não é compatível com o tipo de máquina virtual DS3_v2.
 . O desempenho de gravação aprimorado é habilitado ao usar discos de armazenamento Premium do Azure, mas não ao usar o tipo de máquina virtual DS3_v2.
-. Para obter suporte à região do Azure, https://cloud.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"^] consulte .
+. Para obter suporte à região do Azure, https://bluexp.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"^] consulte .
 
 
 
@@ -169,5 +169,5 @@ Você pode escolher entre as seguintes configurações ao implantar o Cloud Volu
 Notas:
 
 . A disposição de dados em categorias não é compatível com pares de HA.
-. Para obter suporte à região do Azure, https://cloud.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"^] consulte .
+. Para obter suporte à região do Azure, https://bluexp.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"^] consulte .
 

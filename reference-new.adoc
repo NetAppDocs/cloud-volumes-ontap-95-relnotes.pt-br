@@ -104,7 +104,7 @@ NOTE: O reaquecimento do cache após uma reinicialização não é suportado com
 
 Agora, os pares DE HA são compatíveis na região Central dos EUA no Azure.
 
-https://cloud.netapp.com/cloud-volumes-global-regions["Veja a lista completa das regiões do Azure suportadas"^].
+https://bluexp.netapp.com/cloud-volumes-global-regions["Veja a lista completa das regiões do Azure suportadas"^].
 
 
 
@@ -133,7 +133,7 @@ A versão GA está disponível na maioria das regiões do Azure, com exceção d
 
 A manutenção nessas regiões pode impedir a criação de Cloud Volumes ONTAP e impedir a ocorrência de failover. Planejamos apoiar essas regiões assim que a manutenção for concluída.
 
-https://cloud.netapp.com/cloud-volumes-global-regions["Veja uma lista completa das regiões do Azure suportadas"^].
+https://bluexp.netapp.com/cloud-volumes-global-regions["Veja uma lista completa das regiões do Azure suportadas"^].
 
 
 

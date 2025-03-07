@@ -91,7 +91,6 @@
   <block id="bd9f3210b7c4e1dfb162268596a29363" category="list-text">NFSv4 não é suportado. NFSv3 é suportado.</block>
   <block id="74522068eb4d7b9d888846015e92c07a" category="list-text">Pares HA não são suportados em algumas regiões.</block>
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">Consulte a lista de regiões do Azure suportadas</block>
-  <block id="f5b8e6c4c4b082cf610f078e361a727f" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block>.</block>
   <block id="9c4369ea6b2e29931f30698d49e87679" category="summary">O Cloud Volumes ONTAP 9,5 inclui vários novos recursos e aprimoramentos.</block>
   <block id="eefe5eb049dc65c85c62e0f1c7752611" category="doc">Novidades do Cloud Volumes ONTAP 9,5</block>
   <block id="f9d74313da16b2bb412c1d7c5efd0534" category="inline-link">Notas de versão do Cloud Manager</block>
@@ -135,7 +134,6 @@
   <block id="fe6df44a9d70c01de724da265530b0d2" category="section-title">Suporte A HA na região do Azure Central dos EUA (25 Mar 2019)</block>
   <block id="1417340e9f15685d8f4814b72dd81c2d" category="paragraph">Agora, os pares DE HA são compatíveis na região Central dos EUA no Azure.</block>
   <block id="4a977616fcd7ade62dbf55a1f8db1bd0" category="inline-link">Veja a lista completa das regiões do Azure suportadas</block>
-  <block id="07a1c66013de0c57f2bd7d69d3354c41" category="paragraph"><block ref="0f846b36f06a975303e325a2ffb2c92b" category="inline-link-rx"></block>.</block>
   <block id="a214545074aff7a12db7be5c3411e5f3" category="section-title">9,5 P1 patch (18 de março de 2019)</block>
   <block id="86b05ab8e0392045b506cb6f3482ac50" category="paragraph">A versão de patch 9,5 P1 para Cloud Volumes ONTAP já está disponível para todas as configurações. O Cloud Manager solicitará que você atualize seus sistemas existentes para esta versão de patch.</block>
   <block id="e32ea6753fc1e0dc2dafd4f1157260e0" category="paragraph">Se você tiver um par de HA existente no Azure, a NetApp entrará em Contato para ajudá-lo a aplicar a versão de patch do P1.</block>
@@ -151,7 +149,6 @@
   <block id="e74523dfd57d69116c6dc03759fe0a7b" category="list-text">West Central US</block>
   <block id="a8893363a2924d8d1c0816bdb4a0ee72" category="paragraph">A manutenção nessas regiões pode impedir a criação de Cloud Volumes ONTAP e impedir a ocorrência de failover. Planejamos apoiar essas regiões assim que a manutenção for concluída.</block>
   <block id="bc65177d9fd008caca5b0105a76cd89b" category="inline-link">Veja uma lista completa das regiões do Azure suportadas</block>
-  <block id="a98fce804b2db5bb3bc16f3fd91e4894" category="paragraph"><block ref="b01a780abce559d6649a48ba9b858ca7" category="inline-link-rx"></block>.</block>
   <block id="5c3ae5e8064b906f78f689ea334bf839" category="section-title">9,5 GA para AWS e Azure (4 fev 2019)</block>
   <block id="a2a629c8cd8ceb36484d412d0c24dd87" category="paragraph">A versão de disponibilidade geral (GA) do Cloud Volumes ONTAP 9,5 agora está disponível na AWS e no Microsoft Azure (para sistemas de nó único somente no Azure). A versão GA inclui correções de estabilidade, recursos novos e obsoletos na AWS e uma alteração nos limites de capacidade do sistema.</block>
   <block id="a37b0234f6bd7d4e970efabe8c66add0" category="section-title">Limite de capacidade de 368 TB para todas as configurações Premium e BYOL</block>
@@ -373,7 +370,6 @@
   <block id="90088be3adb232b22e0087f5c0dfa678" category="list-text">HDDs frios não são compatíveis com pares de HA.</block>
   <block id="17105d87ead215069c8de1fbcc539db6" category="list-text">O desempenho de gravação aprimorado é habilitado ao usar SSDs EBS com padrão Cloud Volumes ONTAP, Premium e BYOL.</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Regiões globais do Cloud volumes</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="list-text">Para obter suporte à região da AWS,<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block> consulte .</block>
   <block id="2544021bbaa4bc6eadfddbb17edf7811" category="section-title">Cloud Volumes ONTAP para Azure</block>
   <block id="439b8a07189772d0c98983ce22685918" category="paragraph">No Azure, você pode implantar o Cloud Volumes ONTAP como um sistema de nó único ou como um par de HA.</block>
   <block id="078325cc35a9c8c9290e445f32bd1855" category="section-title">Sistemas de nó único</block>
@@ -382,7 +378,6 @@
   <block id="50bb513ae39b44421d182e4072a83998" category="cell">Discos gerenciados HDD padrão, discos gerenciados SSD padrão e discos gerenciados SSD premium, até 32 TIB por disco</block>
   <block id="d448e5e37b82dc9cd3ec041340cd7253" category="list-text">A disposição de dados em categorias não é compatível com o tipo de máquina virtual DS3_v2.</block>
   <block id="d6b23a41a85f490ae75b43cb4095d8c0" category="list-text">O desempenho de gravação aprimorado é habilitado ao usar discos de armazenamento Premium do Azure, mas não ao usar o tipo de máquina virtual DS3_v2.</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Para obter suporte à região do Azure,<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block> consulte .</block>
   <block id="b049fcbe8198301adc6bf87634a02845" category="section-title">Pares HA</block>
   <block id="a2f04bcb45cecb780dad3d2795f4e080" category="paragraph">Você pode escolher entre as seguintes configurações ao implantar o Cloud Volumes ONTAP como um par de HA no Azure:</block>
   <block id="aa7f77e663b832d5b0e544c5511e680c" category="cell">Não suportado</block>
@@ -399,4 +394,9 @@
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Blog do Cloud Central</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinars na nuvem</block>
   <block id="768e5fecad4c27b08f9ffd5fd34e1330" category="sidebar">Notas de versão do Cloud Volumes ONTAP 9,5</block>
+  <block id="16037845f27c88646572392cae4cc963" category="paragraph"><block ref="26f113c6240bf0450440356676516cf1" category="inline-link-rx"></block>.</block>
+  <block id="045622dfb07c6145c4ccaf9f2078e56b" category="paragraph"><block ref="782e925b243dc89a59a0bc67d50ce99b" category="inline-link-rx"></block>.</block>
+  <block id="f99c30ec26c64d7fcf92dc4cc9aba95f" category="paragraph"><block ref="71d5ab1d1cf6cb7dfc6c6d8e7906da1b" category="inline-link-rx"></block>.</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="list-text">Para obter suporte à região da AWS,<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block> consulte .</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Para obter suporte à região do Azure,<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block> consulte .</block>
 </blocks>
